@@ -1,5 +1,13 @@
 # This is our project!
 
+## Collaborators
+
+* [Oshea Deans](https://github.com/OsheaRD)
+* [Terrence Eveline](https://github.com/tjeve)
+* [Joey Killam](https://github.com/jhkillam)
+* [Kazue Sasatani](https://github.com/segakazzz)
+
+
 ## Testimonies
 
 * Used JQuery Plugin [Masonry](https://masonry.desandro.com/) for Masonry layout to avoid adjusting the ratio of width and height for each photo.

@@ -15,9 +15,72 @@ The purpose of this project was to learn how to collaborate using Github to crea
 
 My primary contribution to the project was the homepage layout, including the navbar and footer which would be implemented on each page of the site. 
 
-For the navbar and footer, bootstrap was used with some modifications to the font size of the brand name and navigation links for mobile responsiveness using media queries. We also imported a Google font to use across the entire site. 
+For the navbar and footer, Bootstrap was used with some modifications to the font size of the brand name and navigation links for mobile responsiveness using media queries. The HTML and CSS for the navbar and footer was shared with each contributor to add to their page. We also imported a Google font to use across the entire site for these sections.  
 
-The logo was created using Logo_Maker, a free iOS logo creation app. [Kazue](https://github.com/segakazzz) converted it for use as a favicon using [Favicon Converter](https://favicon.io/favicon-converter/).
+The logo was created using the free version of [Logo_Maker](https://apps.apple.com/us/app/logo-maker-create-a-design/id1143390028) for iOS. [Kazue](https://github.com/segakazzz) converted it for use as a favicon using [Favicon Converter](https://favicon.io/favicon-converter/).
+
+The first primary image after the header was intended to be a large parallax-style image, but I found that the implementation  used was not ideal, utilizing only CSS, and did not work on mobile, so a media query was used to disable it on mobile. 
+
+The carousel image viewer was implemented using Bootstrap, and I added a low opacity grey background to the next and previous arrow indicators when a mouse hovers them to make them more obvious when the arrows cannot be seen if the colors are hidden by the image. 
+
+The buttons linking to the rest of the site were created using some neat effects from [CSSFX](https://cssfx.dev/), and modified with Flexbox for responsiveness. Example below. 
+
+* HTML
+~~~html
+<div class="button-container">
+  <button onclick="window.location.href='about.html'">About</button>
+  <button onclick="window.location.href='subscribe.html'">Subscribe</button>
+  <button onclick="window.location.href='testimonies.html'">Testimonies</button>
+</div>
+~~~
+
+~~~css
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  z-index: 1;
+  position: relative;
+  font-size: 2em;
+  font-family: 'Amatic SC', cursive;
+  color: white;
+  padding: 0.5em 1em;
+  outline: none;
+  border: none;
+  background-color: hsl(236, 32%, 26%);
+  overflow: hidden;
+  transition: color 0.4s ease-in-out;
+  width: 200px;
+  flex-grow: 1;
+}
+  
+button::before {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #3cefff;
+  transform-origin: center;
+  transform: translate3d(-50%, -50%, 0) scale3d(0, 0, 0);
+  transition: transform 0.45s ease-in-out;
+}
+  
+button:hover {
+  cursor: pointer;
+  color: #161616;
+}
+  
+main button:hover::before {
+  transform: translate3d(-50%, -50%, 0) scale3d(15, 15, 15);
+}
+~~~
 
 ## Testimonies
 

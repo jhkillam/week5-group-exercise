@@ -9,6 +9,15 @@ The purpose of this project was to learn how to collaborate using Github to crea
 * [Joey Killam](https://github.com/jhkillam)
 * [Kazue Sasatani](https://github.com/segakazzz)
 
+## Home page + Navbar/Footer
+
+### Designed by [Joey Killam](https://github.com/jhkillam)
+
+My primary contribution to the project was the homepage layout, including the navbar and footer which would be implemented on each page of the site. 
+
+For the navbar and footer, bootstrap was used with some modifications to the font size of the brand name and navigation links for mobile responsiveness using media queries. We also imported a Google font to use across the entire site. 
+
+The logo was created using Logo_Maker, a free iOS logo creation app. [Kazue](https://github.com/segakazzz) converted it for use as a favicon using [Favicon Converter](https://favicon.io/favicon-converter/).
 
 ## Testimonies
 

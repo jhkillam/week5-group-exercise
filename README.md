@@ -9,6 +9,10 @@ The purpose of this project was to learn how to collaborate using Github to crea
 * [Joey Killam](https://github.com/jhkillam)
 * [Kazue Sasatani](https://github.com/segakazzz)
 
+## Key takeaways
+
+Github proved to be a very useful tool for us to share what we were working on, and to help each other out with any issues. If I had more time to work on this with the group, I would have liked to clean up the file structure, and also merged all of our css files into one master stylesheet, rather than using stylesheets for each page. Additionally, I would have liked to put more content into the footer to be used across the rest of the site.
+
 ## Home page + Navbar/Footer
 
 ### Designed by [Joey Killam](https://github.com/jhkillam)
@@ -23,7 +27,7 @@ The first primary image after the header was intended to be a large parallax-sty
 
 The carousel image viewer was implemented using Bootstrap, and I added a low opacity grey background to the next and previous arrow indicators when a mouse hovers them to make them more obvious when the arrows cannot be seen if the colors are hidden by the image. 
 
-The buttons linking to the rest of the site were created using some neat effects from [CSSFX](https://cssfx.dev/), and modified with Flexbox for responsiveness. Example below. 
+The buttons at the bottom linking to the rest of the site were created using some neat effects from [CSSFX](https://cssfx.dev/), and modified with Flexbox for responsiveness. Example below. 
 
 * HTML
 ~~~html
@@ -34,6 +38,7 @@ The buttons linking to the rest of the site were created using some neat effects
 </div>
 ~~~
 
+* CSS
 ~~~css
 .button-container {
   display: flex;

@@ -1,4 +1,6 @@
-# This is our project!
+# First Group Project
+
+The purpose of this project was to learn how to collaborate using Github to create a simple multi-page website.
 
 ## Collaborators
 
@@ -9,6 +11,8 @@
 
 
 ## Testimonies
+
+### Designed by [Kazue Sasatani](https://github.com/segakazzz)
 
 * Used JQuery Plugin [Masonry](https://masonry.desandro.com/) for Masonry layout to avoid adjusting the ratio of width and height for each photo.
 

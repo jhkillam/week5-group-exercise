@@ -23,9 +23,9 @@ The logo was created using the free version of [Logo_Maker](https://apps.apple.c
 
 The first primary image after the header was intended to be a large parallax-style image, but we found that the implementation  utilizing only CSS was not ideal, and had issues on mobile, so a media query was used to disable it on mobile. 
 
-The carousel image viewer was implemented using Bootstrap, and a low opacity grey background was added to the next and previous arrow indicators when a mouse hovers them to make them more obvious when the arrows cannot be seen if the colors are hidden by the image. This was disabled on mobile using a media query due to inconsistent interactions with touch screens. 
+The carousel image viewer was implemented using a [Bootstrap Carousel](https://getbootstrap.com/docs/4.0/components/carousel/), and a low opacity grey background was added to the next and previous arrow indicators when a mouse hovers them to make them more obvious when the arrows cannot be seen if the colors are hidden by the image. This was disabled on mobile using a media query due to inconsistent interactions with touch screens. 
 
-The buttons at the bottom linking to the rest of the site were created using some neat effects from [CSSFX](https://cssfx.dev/), and modified with Flexbox for responsiveness. An example is shown below. 
+The buttons at the bottom linking to the rest of the site were created using some effects from [CSSFX](https://cssfx.dev/), and modified with Flexbox for responsiveness. An example is shown below. 
 
 * HTML
 ~~~html

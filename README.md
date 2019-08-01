@@ -1,6 +1,6 @@
 # First Group Project
 
-The purpose of this project was to learn how to collaborate using Github to create a simple multi-page website.
+The purpose of this project was create a simple multi-page website as a group, utilzing Github to share and manage our files. 
 
 ## Collaborators
 

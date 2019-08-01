@@ -17,17 +17,15 @@ Github proved to be a very useful tool for us to share what we were working on, 
 
 ### Designed by [Joey Killam](https://github.com/jhkillam)
 
-My primary contribution to the project was the homepage layout, including the navbar and footer which would be implemented on each page of the site. 
-
 For the navbar and footer, Bootstrap was used with some modifications to the font size of the brand name and navigation links for mobile responsiveness using media queries. The HTML and CSS for the navbar and footer was shared with each contributor to add to their page. We also imported a Google font to use across the entire site for these sections.  
 
 The logo was created using the free version of [Logo_Maker](https://apps.apple.com/us/app/logo-maker-create-a-design/id1143390028) for iOS. [Kazue](https://github.com/segakazzz) converted it for use as a favicon using [Favicon Converter](https://favicon.io/favicon-converter/).
 
-The first primary image after the header was intended to be a large parallax-style image, but I found that the implementation  used was not ideal, utilizing only CSS, and did not work on mobile, so a media query was used to disable it on mobile. 
+The first primary image after the header was intended to be a large parallax-style image, but we found that the implementation  utilizing only CSS was not ideal, and had issues on mobile, so a media query was used to disable it on mobile. 
 
-The carousel image viewer was implemented using Bootstrap, and I added a low opacity grey background to the next and previous arrow indicators when a mouse hovers them to make them more obvious when the arrows cannot be seen if the colors are hidden by the image. 
+The carousel image viewer was implemented using Bootstrap, and a low opacity grey background was added to the next and previous arrow indicators when a mouse hovers them to make them more obvious when the arrows cannot be seen if the colors are hidden by the image. This was disabled on mobile using a media query due to inconsistent interactions with touch screens. 
 
-The buttons at the bottom linking to the rest of the site were created using some neat effects from [CSSFX](https://cssfx.dev/), and modified with Flexbox for responsiveness. Example below. 
+The buttons at the bottom linking to the rest of the site were created using some neat effects from [CSSFX](https://cssfx.dev/), and modified with Flexbox for responsiveness. An example is shown below. 
 
 * HTML
 ~~~html

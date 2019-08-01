@@ -9,7 +9,7 @@ The purpose of this project was create a simple multi-page website as a group, u
 * [Joey Killam](https://github.com/jhkillam)
 * [Kazue Sasatani](https://github.com/segakazzz)
 
-## Key takeaways
+## Key Takeaways
 
 Github proved to be a very useful tool for us to share what we were working on, and to help each other out with any issues. If I had more time to work on this with the group, I would have liked to clean up the file structure, and also merged all of our css files into one master stylesheet, rather than using stylesheets for each page. Additionally, I would have liked to put more content into the footer to be used across the rest of the site.
 
